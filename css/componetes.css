@@ -1,0 +1,183 @@
+        #backend {
+            box-shadow: 0px 0px 10px 0px rgb(117, 7, 180);
+            width: 0px;
+            animation: anima-back 8s ease-out;
+        }
+        
+        .back1 {
+            animation: C 8s ease-out;
+            /* animation: c, python, nodegcc, kotlin, php, csharp 8s ease-out; */
+        }
+        
+        .back2 {
+            animation: node 8s ease-out;
+        }
+        
+        .back3 {
+            animation: python 8s ease-out;
+        }
+        
+        .back4 {
+            animation: mysql 8s ease-out;
+        }
+        
+        .back5 {
+            animation: csharp 8s ease-out;
+        }
+        
+        .back6 {
+            animation: kotlin 8s ease-out;
+        }
+        
+        @keyframes anima-back {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+        
+        @keyframes anima-front {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 55%;
+            }
+        }
+        
+        @keyframes C {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 90%;
+            }
+        }
+        
+        @keyframes python {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 40%;
+            }
+        }
+        
+        @keyframes node {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 70%;
+            }
+        }
+        
+        @keyframes gcc {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 90%;
+            }
+        }
+        
+        @keyframes kotlin {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 28%;
+            }
+        }
+        
+        @keyframes mysql {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 60%;
+            }
+        }
+        
+        @keyframes csharp {
+            0% {
+                width: 0px;
+            }
+            100% {
+                width: 50%;
+            }
+        }
+        
+        #frontend {
+            box-shadow: 0px 0px 10px 0px blue;
+            animation: anima-front 8s ease-in-out;
+        }
+        
+        @keyframes html {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+        
+        @keyframes js {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 95%;
+            }
+        }
+        
+        @keyframes css {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 93%;
+            }
+        }
+        
+        .front1 {
+            animation: html 8s ease-out;
+        }
+        
+        .front2 {
+            animation: js 8s ease-out;
+        }
+        
+        .front3 {
+            animation: css 8s ease-out;
+        }
+        
+        #linguagem {
+            display: flex;
+            justify-content: left;
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .centro {
+            text-align: center;
+            width: 20%;
+            position: relative;
+            padding: 5px;
+        }
+        
+        .cplus {
+            border-radius: 30px;
+            width: 40%;
+            height: 30px;
+        }
+        
+        .cor-back {
+            box-shadow: 0px 0px 5px 0px rgb(117, 7, 180);
+        }
+        
+        .cor-front {
+            box-shadow: 0px 0px 5px 0px blue;
+        }
