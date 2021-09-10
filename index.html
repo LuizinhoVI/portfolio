@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Luiz vieira</title>
+<title>CodeVieira</title>
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/import.css">
+    <link rel="icon" href="img/logo.png" type="">
 
 </head>
 
@@ -16,11 +17,9 @@
 
     <!-- Sidebar/menu -->
     <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-        <div class="w3-container">
-            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-                <i class="fa fa-remove"></i>
-            </a>
-            <img src="img/perfil.png" style="width:45%;" class="w3-round"><br><br>
+
+        <div class="w3-container" align="center">
+            <img src="img/perfil.png" id="perfil" style="width:50%;" class="w3-round"><br><br>
             <h4><b>Jose luiz vieira filho</b></h4>
             <p class="w3-text-grey">Analista de sistema ( SÊNIOR )</p>
         </div>
@@ -29,14 +28,13 @@
             <a href="#perfil" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Perfil</a>
             <a href="#habilidade-desenvolvedor" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><img src="https://img.icons8.com/ios-filled/20/000000/development-skill.png" class="w3-margin-right" />Habilidade</a>
             <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contato</a>
+
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contato</a>
         </div>
         <div class="w3-panel w3-large">
             <a href=""> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <a href=""> <i class="fa fa-instagram w3-hover-opacity"></i>
+            </a>
         </div>
     </nav>
 
@@ -48,22 +46,25 @@
 
         <!-- Header -->
         <header id="portfolio">
-            <a href="#"><img src="" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <a href="#"><img src="img/logo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity" id="logo"></a>
             <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-            <div class="w3-container">
-                <h1><b>L U I Z</b></h1>
-                <div class="w3-section w3-bottombar w3-padding-16">
-                    <span class="w3-margin-right">Mostrar:</span>
+            <div class="w3-container menu-head">
+                <h1><b>Code</b></h1>
+                <div class="w3-section  w3-padding-16" id="menu">
+
                     <button class="w3-button w3-black">TODOS</button>
-                    <button class="w3-button w3-white"><img src="img/desktop.png" class="desktop"></img>Desktop</button>
-                    <button class="w3-button w3-white w3-hide-small"><img src="img/celular.png" class="mobile" alt=""></i>Mobile</button>
-                    <button class="w3-button w3-white w3-hide-small"><img src="img/web.png" class="web"alt="">Web</button>
+                    <button class="w3-button w3-white btt"><img src="img/desktop.png" class="desktop"></img> <i class="n-menu"> Desktop </i></button>
+                    <button class="w3-button w3-white btt"><img src="img/celular.png" class="mobile" alt=""><i class="n-menu"> Mobile</i></button>
+                    <button class="w3-button w3-white  btt"><img src="img/web.png" class="web"alt=""><i class="n-menu">Web</i></button>
                 </div>
             </div>
+            <hr size="10">
         </header>
-
+        <h3><b><p>PORTFÓLIOS</p></b></h3>
+        <hr>
         <!-- categoria de portfolio 3 fileiras -->
         <div class="w3-row-padding">
+
             <div class="w3-third w3-container w3-margin-bottom">
                 <img src="img/logo codeprogramado.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
                 <div class="w3-container w3-white">
@@ -152,10 +153,13 @@
                 </p>
             </p>
             <hr>
-            <h2 id="habilidade-desenvolvedor"><b> Habilidades como Desenvolvedor</b></h2>
+            <h2 id="habilidade-desenvolvedor">
+                <p align="center"> Habilidades como Desenvolvedor</p>
+            </h2>
+            <hr>
             <!-- Progress bars / Skills -->
             <h4> <b>
-            <p>BACK-END</p></b></h4>
+            <p align="center">BACK-END</p></b></h4>
             <div class="w3-grey">
                 <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%" id="backend">85%</div>
             </div>
@@ -191,7 +195,7 @@
                 </div>
             </div>
             <!-- parte do front end das tabelas  -->
-            <h4><b><p>FRONT-END</p></b></h4>
+            <h4><b><p align="center">FRONT-END</p></b></h4>
             <div class=" w3-grey ">
                 <div class="w3-container w3-dark-grey w3-padding w3-center " style="width:55% " id="frontend">55%</div>
             </div>
@@ -213,7 +217,7 @@
             </div>
             <hr>
 
-            <p>Liguagens de programação </p>
+            <p align="center">Liguagens de programação </p>
             <p align="justify">Linguagem de programação Cada projeto feito tem sua linguagem de programação como base para ser executada de forma mais eficiente. A linguagem de programação foi feita para fazer a comunicação com o computador através de códigos, e assim como
                 diferentes idiomas no mundo existe é a mesma coisa no mundo da programação existe linguagens difíceis bem complexa como linguagens de baixo nível até linguagens simples de fácil uso como se fosse uma grande receita de bolo.
             </p>
@@ -227,22 +231,7 @@
         <h4>How much I charge</h4>
         <!-- Pricing Tables -->
         <div class="w3-row-padding " style="margin:0 -16px ">
-            <div class="w3-third w3-margin-bottom ">
-                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off ">
-                    <li class="w3-black w3-xlarge w3-padding-32 ">Basic</li>
-                    <li class="w3-padding-16 ">Web Design</li>
-                    <li class="w3-padding-16 ">Photography</li>
-                    <li class="w3-padding-16 ">1GB Storage</li>
-                    <li class="w3-padding-16 ">Mail Support</li>
-                    <li class="w3-padding-16 ">
-                        <h2>$ 10</h2>
-                        <span class="w3-opacity ">per month</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24 ">
-                        <button class="w3-button w3-teal w3-padding-large w3-hover-black ">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
+
 
             <div class="w3-third w3-margin-bottom ">
                 <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off ">
@@ -261,22 +250,7 @@
                 </ul>
             </div>
 
-            <div class="w3-third ">
-                <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off ">
-                    <li class="w3-black w3-xlarge w3-padding-32 ">Premium</li>
-                    <li class="w3-padding-16 ">Web Design</li>
-                    <li class="w3-padding-16 ">Photography</li>
-                    <li class="w3-padding-16 ">Unlimited Storage</li>
-                    <li class="w3-padding-16 ">Endless Support</li>
-                    <li class="w3-padding-16 ">
-                        <h2>$ 25</h2>
-                        <span class="w3-opacity ">per month</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24 ">
-                        <button class="w3-button w3-teal w3-padding-large w3-hover-black ">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
+
         </div>
 
 
@@ -319,9 +293,13 @@
         <footer class="w3-container w3-padding-32 w3-dark-grey ">
             <div class="w3-row-padding ">
                 <div class="w3-third ">
-                    <h3>FOOTER</h3>
-                    <p>Se você tem uma ideia, coloquea em um papel e faça dessa ideia a sua motivação</p>
-                    <p><a href="https://www.w3schools.com/w3css/default.asp " target="_blank ">w3.css</a></p>
+                    <h3>O que faço para se tornar um programador ?</h3>
+                    <p align="justify">Se você tem uma ideia, coloquea em um papel e faça dessa ideia a sua motivação para ir longe. vou deixar o meu github aqui (
+                        <a href="">LUIZINHOVI</a> ) para você deixar sua ideia
+                    </p>
+                    <p>
+                        <a href="https://www.w3schools.com/w3css/default.asp " target="_blank ">github</a>
+                    </p>
                 </div>
 
                 <div class="w3-third ">
