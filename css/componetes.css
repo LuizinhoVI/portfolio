@@ -181,3 +181,66 @@
         .cor-front {
             box-shadow: 0px 0px 5px 0px blue;
         }
+        
+        #portfolio {}
+        
+        #iconelogo {
+            display: grid;
+            position: relative;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            top: 20px;
+            left: 50%;
+            font-size: 40px;
+            width: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .inicial {
+            position: relative;
+            border: solid red 2px;
+            top: -10px;
+            right: 15px;
+            width: 20px;
+            height: 100px;
+            background-color: black;
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+            transform: rotate(50deg);
+        }
+        
+        .inicial1 {
+            position: relative;
+            border: red solid 2px;
+            top: -10px;
+            right: 0px;
+            width: 20px;
+            height: 100px;
+            background-color: black;
+            border-top-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+            transform: rotate(-50deg);
+        }
+        
+        .luiz {
+            position: absolute;
+            left: 10%;
+            font-size: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 0px 0px 5px rgb(248, 0, 0), 0px 0px 2px black;
+        }
+        
+        .code {
+            position: absolute;
+            right: 10%;
+            font-size: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 0px 0px 5px rgb(248, 0, 0), 0px 0px 2px black;
+        }
+        
+        #menu {
+            position: relative;
+            left: 50px;
+        }

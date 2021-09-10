@@ -19,15 +19,15 @@
     <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
 
         <div class="w3-container" align="center">
-            <img src="img/perfil.png" id="perfil" style="width:50%;" class="w3-round"><br><br>
-            <h4><b>Jose luiz vieira filho</b></h4>
+            <img src="img/perfil.png" id="perfil" style="width:50%;" class="w3-round">
+
             <p class="w3-text-grey">Analista de sistema ( SÊNIOR )</p>
         </div>
         <div class="w3-bar-block">
             <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
             <a href="#perfil" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Perfil</a>
             <a href="#habilidade-desenvolvedor" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><img src="https://img.icons8.com/ios-filled/20/000000/development-skill.png" class="w3-margin-right" />Habilidade</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contato</a>
+            <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><img src="img/SERVIÇO.svg" width="25px" class=" w3-margin-right">Serviços</a>
 
             <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contato</a>
         </div>
@@ -43,30 +43,36 @@
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px">
-
+        <!-- botão de abrir  -->
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
         <!-- Header -->
         <header id="portfolio">
-            <a href="#"><img src="img/logo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity" id="logo"></a>
-            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-            <div class="w3-container menu-head">
-                <h1><b>Code</b></h1>
-                <div class="w3-section  w3-padding-16" id="menu">
 
-                    <button class="w3-button w3-black">TODOS</button>
-                    <button class="w3-button w3-white btt"><img src="img/desktop.png" class="desktop"></img> <i class="n-menu"> Desktop </i></button>
-                    <button class="w3-button w3-white btt"><img src="img/celular.png" class="mobile" alt=""><i class="n-menu"> Mobile</i></button>
-                    <button class="w3-button w3-white  btt"><img src="img/web.png" class="web"alt=""><i class="n-menu">Web</i></button>
+            <div class="w3-container">
+
+                <div class=" menu-head" id="iconelogo">
+                    <div class="luiz sair">LUIZ </div>
+                    <div class="inicial1"></div>
+                    <div class="inicial"></div>
+                    <div class="code sair">CODE </div>
                 </div>
+
             </div>
-            <hr size="10">
         </header>
-        <h3><b><p>PORTFÓLIOS</p></b></h3>
         <hr>
+        <div class="w3-section  w3-padding-16" id="menu">
+
+            <h3 align="center"><b><p>PORTFÓLIOS</p></b></h3>
+            <button class="w3-button w3-black">TODOS</button>
+            <button class="w3-button w3-white btt"><img src="img/desktop.png" class="desktop"></img> <i class="n-menu"> Desktop </i></button>
+            <button class="w3-button w3-white btt"><img src="img/celular.png" class="mobile" alt=""><i class="n-menu"> Mobile</i></button>
+            <button class="w3-button w3-white  btt"><img src="img/web.png" class="web"alt=""><i class="n-menu">Web</i></button>
+        </div>
         <!-- categoria de portfolio 3 fileiras -->
         <div class="w3-row-padding">
 
             <div class="w3-third w3-container w3-margin-bottom">
-                <img src="img/logo codeprogramado.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <img src="img/logo codeprogramado.png" alt="Norway" style="width:100%" class="w3-opacity">
                 <div class="w3-container w3-white">
                     <p align="center"><b>CODE PROGRAMADO</b></p>
                     <p>Criado para microempreendedor e comerciantes que ainda não são visto pela web e para pessoas que estão começando o seu negocio online, sem muita dor de cabeça para comer suas vendas onlines ou só pra postar seus trabalhos locais.</p>
@@ -226,29 +232,32 @@
         <i class="fa fa-download w3-margin-right "></i>Download Resume
       </button>
         </p>
+
+        <hr>
+        <h1 align="center" id="service">Serviços</h1>
         <hr>
 
-        <h4>How much I charge</h4>
         <!-- Pricing Tables -->
         <div class="w3-row-padding " style="margin:0 -16px ">
 
 
             <div class="w3-third w3-margin-bottom ">
                 <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off ">
-                    <li class="w3-teal w3-xlarge w3-padding-32 ">Pro</li>
-                    <li class="w3-padding-16 ">Web Design</li>
-                    <li class="w3-padding-16 ">Photography</li>
-                    <li class="w3-padding-16 ">50GB Storage</li>
+                    <li class="w3-teal w3-xlarge w3-padding-32 ">Serviço semanal </li>
+                    <li class="w3-padding-16 ">21 Horas Semanais</li>
+                    <li class="w3-padding-16 "></li>
+                    <li class="w3-padding-16 "></li>
                     <li class="w3-padding-16 ">Endless Support</li>
                     <li class="w3-padding-16 ">
-                        <h2>$ 25</h2>
+                        <h2>R$ 20,00 </h2>
                         <span class="w3-opacity ">per month</span>
                     </li>
                     <li class="w3-light-grey w3-padding-24 ">
-                        <button class="w3-button w3-teal w3-padding-large w3-hover-black ">Sign Up</button>
+                        <button class="w3-button w3-teal w3-padding-large w3-hover-black ">Contratar</button>
                     </li>
                 </ul>
             </div>
+
 
 
         </div>
@@ -256,7 +265,7 @@
 
         <!-- Contact Section -->
         <div class="w3-container w3-padding-large w3-grey ">
-            <h4 id="contact"><b>Contato</b></h4>
+            <h1 id="contact" align="center"><b>Contato</b></h1>
             <div class="w3-row-padding w3-center w3-padding-24 " style="margin:0 -16px ">
                 <div class="w3-third w3-dark-grey ">
                     <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey "></i></p>
