@@ -15,7 +15,7 @@
             width: 100%;
         }
         button[class*="btt"] {
-            width: 30%;
+            width: 22%;
             font-size: 18px;
             display: inline-flex;
             place-content: center;
